@@ -3,18 +3,19 @@ import java.util.Scanner;
 public class tryoutjava7 {
     public static void main(String[] args) {
         //Fibonacci series
-        int i,t1=0,t2=0;
-        int next=t1+t2;
-        System.out.print("Enter the Number ");
-        Scanner input =new Scanner(System.in);
-        int n= input.nextInt();
-        System.out.println("Fibonacci Series " +t1+t2);
-        for (i=3;i<=n;i++)
-        {
-            System.out.println(next);
-            t1=t2;
-            t2=next;
-            next=t1+t2;
+        System.out.println("Fibonacci series");
+        Scanner in =new Scanner(System.in);
+        System.out.print("Enter the number :");
+        int n=in.nextInt();
+        int a=0;
+        int b=1;
+        int count=2;
+        while (count<=n){
+            int temp=b;
+            b=b+a;
+            a=temp;
+            System.out.print(b+" ");
+            count++;
         }
     }
 }
