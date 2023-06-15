@@ -34,6 +34,7 @@ public class base5 {
         float r=(1/2f)*(f*s*a);
         System.out.println("The area of the given parallelogram is "+r+" cm 2.");
 
+        //trying to = the sin with the value
 
     }
 }
