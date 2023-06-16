@@ -3,23 +3,34 @@ import java.util.Scanner;
 public class base6 {
     public static void main(String[] args) {
        /*
-        Solution:
-//
-//        As we can see, BE = 8 yards and EC = 10 yards. So, BD = 2 × BE = 16 yards and AC = 2 × EC = 20 yards
-//
-//        Area of a rhombus= 1/2 × BD × AC
-//
-//⇒ Area = 1/2 × 16 × 20
-//                = 8 × 20
-//
-//                = 160 yards2
-//
-//        Answer: Area of the rhombus = 160 yards2
+Example 1: Calculate the area of a rhombus having diagonals equal to 6 cm and 8 cm.
+
+Solution:
+
+Given that,
+
+Diagonal 1, d1 = 6 cm
+
+Diagonal 2, d2 = 8 cm
+
+Area of a rhombus, A = (d1 × d2) / 2
+
+= (6 × 8) / 2
+
+= 48 / 2
+
+= 24 cm2
+
+Hence, the area of the rhombus is 24 cm2.
         */
         System.out.println("Area Of Rhombus");
         Scanner in =new Scanner(System.in);
-        System.out.print("Enter the ");
-        int find= in.nextInt();;
+        System.out.print("Enter the 1 Diagonal :");
+        int fd= in.nextInt();
+        System.out.print("Enter the 2 Diagonal :");
+        int sd=in.nextInt();
+        int ans= (fd*sd)/2;
+        System.out.println("Area of a Rhombus is "+ ans +" cm 2");
 
     }
 
