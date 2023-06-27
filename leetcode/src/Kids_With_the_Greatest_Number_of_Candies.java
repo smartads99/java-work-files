@@ -9,19 +9,19 @@ public class Kids_With_the_Greatest_Number_of_Candies {
 
 
     }
-    public static List<boolean> kids(int []candies,int n){
-        List<Boolean> result = new ArrayList<>();
-        int max = candies[0];
-        for(int i=1;i< candies.length;i++)
-            if(candies[i] > max)
-                max = candies[i];
-
-        for(int i:candies) {
-            if(n >= max)
-                result.add(true);
-            else
-                result.add(false);
-        }
-        return result;
-    }
+//    public static List<boolean> kids(int []candies,int n){
+//        List<Boolean> result = new ArrayList<>();
+//        int max = candies[0];
+//        for(int i=1;i< candies.length;i++)
+//            if(candies[i] > max)
+//                max = candies[i];
+//
+//        for(int i:candies) {
+//            if(n >= max)
+//                result.add(true);
+//            else
+//                result.add(false);
+//        }
+//        return result;
+//    }
 }
