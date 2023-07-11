@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class cyclicsort {
     public static void main(String[] args) {
-        int []arr={4,5,3,2,1};
+        int []arr={3,1,3,4,2};
         missingnum(arr);
         System.out.println(Arrays.toString(arr));
     }
