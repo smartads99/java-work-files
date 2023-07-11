@@ -10,7 +10,7 @@ public class numofeveninarr {
     static int findeven(int arr[]){
         int count=0;
         for (int i = 0; i < arr.length; i++) {
-            if(even(arr[i]){
+            if(even(arr[i])){
                 count++;
             }
         }
