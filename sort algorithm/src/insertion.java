@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class insertion {
     public static void main(String[] args) {
-        int[]arr={5,4,3,1,2,34,53,9,0,-11,-23,-3,55,66,333,45,-44};
+        int[]arr={2,0,2,1,1,0};
         insertionsort(arr);
         System.out.println(Arrays.toString(arr));
 
